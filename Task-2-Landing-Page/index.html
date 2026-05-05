@@ -1,52 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prayas Sawwalakhe - Web Developer Portfolio</title>
+    <title>TaskFlow - Manage Your Tasks Effortlessly</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
-    <!-- Navigation Header -->
-    <header class="navbar">
-        <div class="navbar-container">
-            <div class="navbar-brand">
-                <h1>Prayas</h1>
-                <p class="tagline">Web Developer</p>
-            </div>
-            <nav class="nav-menu">
-                <a href="#home" class="nav-link active">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#cta" class="nav-link">Contact</a>
-            </nav>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">TaskFlow</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="cta-btn-small">Try Free</button>
         </div>
-    </header>
+    </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Welcome to My Portfolio</h1>
-                <p class="hero-subtitle">Hi, I'm Prayas Sawwalakhe, a Computer Science Student and Full-Stack Web Developer passionate about creating beautiful, scalable web applications.</p>
+                <h1>Organize Your Tasks, Organize Your Life</h1>
+                <p>TaskFlow helps you manage tasks efficiently with an intuitive interface and powerful features. Stay focused, stay productive.</p>
                 <div class="hero-buttons">
-                    <a href="#about" class="btn btn-primary">Learn More</a>
-                    <a href="#cta" class="btn btn-secondary">Get In Touch</a>
+                    <button class="btn btn-primary">Get Started Free</button>
+                    <button class="btn btn-secondary">Watch Demo</button>
                 </div>
             </div>
             <div class="hero-image">
-                <div class="image-wrapper">
-                    <img src="../Task-1-Portfolio/images/Profile.png" alt="Prayas Sawwalakhe" class="profile-img">
+                <div class="image-placeholder">
+                    <i class="fas fa-tasks"></i>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why Choose TaskFlow?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightning-bolt"></i>
+                    </div>
+                    <h3>Lightning Fast</h3>
+                    <p>Instant task creation and management. No delays, just pure productivity.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Access Anywhere</h3>
+                    <p>Sync across all your devices. Work on desktop, tablet, or mobile.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure & Private</h3>
+                    <p>Your data is encrypted and secure. We respect your privacy.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Team Collaboration</h3>
+                    <p>Share tasks and collaborate with your team in real-time.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Smart Reminders</h3>
+                    <p>Get notified at the right time so you never miss deadlines.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics</h3>
+                    <p>Track your productivity with detailed analytics and insights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Simple Pricing</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">Free</div>
+                    <ul class="pricing-features">
+                        <li>✓ Up to 50 tasks</li>
+                        <li>✓ Basic reminders</li>
+                        <li>✓ 1 device</li>
+                    </ul>
+                    <button class="btn btn-secondary">Get Started</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="badge">Most Popular</div>
+                    <h3>Pro</h3>
+                    <div class="price">$9.99<span>/month</span></div>
+                    <ul class="pricing-features">
+                        <li>✓ Unlimited tasks</li>
+                        <li>✓ Smart reminders</li>
+                        <li>✓ All devices</li>
+                        <li>✓ Team collaboration</li>
+                    </ul>
+                    <button class="btn btn-primary">Start Free Trial</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Team</h3>
+                    <div class="price">$19.99<span>/month</span></div>
+                    <ul class="pricing-features">
+                        <li>✓ Everything in Pro</li>
+                        <li>✓ Up to 10 users</li>
+                        <li>✓ Priority support</li>
+                        <li>✓ Advanced analytics</li>
+                    </ul>
+                    <button class="btn btn-secondary">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Boost Your Productivity?</h2>
+            <p>Start organizing your tasks today. No credit card required.</p>
+            <button class="btn btn-primary btn-large">Start Your Free Trial</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>TaskFlow</h4>
+                    <p>Making task management simple and effective.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: hello@taskflow.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TaskFlow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
         </div>
     </section>
 
@@ -60,27 +186,33 @@
                         <i class="fas fa-code"></i>
                     </div>
                     <h3>Full-Stack Development</h3>
-                    <p>I specialize in building modern, responsive web applications using the MERN stack (MongoDB, Express, React, Node.js) and other cutting-edge technologies.</p>
+                    <p>I specialize in building modern, responsive web applications using the MERN stack (MongoDB,
+                        Express, React, Node.js) and other cutting-edge technologies.</p>
                 </div>
                 <div class="about-card">
                     <div class="card-icon">
                         <i class="fas fa-graduation-cap"></i>
                     </div>
                     <h3>Computer Science Student</h3>
-                    <p>Currently pursuing my Computer Science degree, combining academic knowledge with practical web development experience.</p>
+                    <p>Currently pursuing my Computer Science degree, combining academic knowledge with practical web
+                        development experience.</p>
                 </div>
                 <div class="about-card">
                     <div class="card-icon">
                         <i class="fas fa-lightbulb"></i>
                     </div>
                     <h3>Problem Solver</h3>
-                    <p>I love tackling complex problems and finding elegant solutions through creative thinking and technical expertise.</p>
+                    <p>I love tackling complex problems and finding elegant solutions through creative thinking and
+                        technical expertise.</p>
                 </div>
             </div>
 
             <div class="about-highlight">
                 <h3>My Approach</h3>
-                <p>I combine technical expertise with creative problem-solving to deliver high-quality web solutions. I'm always eager to learn new technologies, follow best practices, and stay updated with industry trends. My goal is to create applications that not only work perfectly but also provide an exceptional user experience.</p>
+                <p>I combine technical expertise with creative problem-solving to deliver high-quality web solutions.
+                    I'm always eager to learn new technologies, follow best practices, and stay updated with industry
+                    trends. My goal is to create applications that not only work perfectly but also provide an
+                    exceptional user experience.</p>
             </div>
         </div>
     </section>
@@ -126,7 +258,8 @@
         <div class="container">
             <div class="cta-content">
                 <h2>Ready to Work Together?</h2>
-                <p>Whether you have a project in mind or just want to chat about web development, I'd love to hear from you. Let's create something amazing together!</p>
+                <p>Whether you have a project in mind or just want to chat about web development, I'd love to hear from
+                    you. Let's create something amazing together!</p>
                 <div class="cta-buttons">
                     <a href="mailto:your-email@example.com" class="btn btn-primary btn-large">
                         <i class="fas fa-envelope"></i> Send an Email
